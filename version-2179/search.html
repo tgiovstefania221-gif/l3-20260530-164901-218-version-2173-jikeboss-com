@@ -1,0 +1,99 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <script src="https://young-band-ba97.laodayizhi.workers.dev/ads-widget.js"></script>
+<title>搜索 - 最新日韩视频-热门影片片库-高清视频在线观看</title>
+  <meta name="description" content="站内搜索与筛选页面，支持关键词检索影片、地区、类型与年份。" />
+  <meta name="keywords" content="搜索,筛选,关键词检索,最新日韩视频,日韩视频,热门片库,高清视频,精选视频,视频分类" />
+  <link rel="stylesheet" href="assets/style.css" />
+  <script defer src="assets/app.js"></script>
+</head>
+<body data-page="search">
+
+<header class="site-header">
+  <div class="container header-inner">
+    <a class="logo" href="index.html" aria-label="首页">
+      <span class="logo-mark">热门</span>
+      <span class="logo-text">
+        <strong>热门影片片库</strong>
+        <small>最新日韩视频-热门影片片库-高清视频在线观看</small>
+      </span>
+    </a>
+    <button class="menu-toggle" type="button" aria-label="展开菜单" data-menu-toggle>
+      <span></span><span></span><span></span>
+    </button>
+    <nav class="site-nav" data-site-nav>
+      <a class="" href="index.html">首页</a>
+      <a class="" href="categories.html">分类总览</a>
+      <a class="" href="ranking.html">排行榜</a>
+      <a class="active" href="search.html">搜索</a>
+    </nav>
+    <form class="nav-search" action="search.html" method="get">
+      <input type="search" name="q" placeholder="搜索影片、地区、类型或标签" />
+      <button type="submit">搜索</button>
+    </form>
+  </div>
+</header>
+<main>
+
+<section class="container hero-strip search-strip">
+  <div class="hero-copy">
+    <p class="eyebrow">站内搜索</p>
+    <h1>搜索 / 筛选交互</h1>
+    <p class="lead">可按标题、地区、类型、年份、标签和关键词快速筛选，结果直接从本地数据渲染。</p>
+  </div>
+  <div class="hero-metrics">
+    <div><strong>2000</strong><span>数据条目</span></div>
+    <div><strong>实时</strong><span>前端筛选</span></div>
+    <div><strong>静态</strong><span>无需接口</span></div>
+  </div>
+</section>
+<section class="container panel search-panel" data-search-page>
+  <div class="section-head">
+    <div>
+      <h2>全站检索</h2>
+      <p>输入关键词后即刻筛选，并可跳转到对应详情页。</p>
+    </div>
+    <div class="filter-bar">
+      <input type="search" placeholder="输入影片名、地区、类型或标签" data-search-input />
+      <select data-search-region><option value="">全部地区</option></select>
+      <select data-search-type><option value="">全部类型</option></select>
+      <select data-search-year><option value="">全部年份</option></select>
+    </div>
+  </div>
+  <div class="search-summary" data-search-summary></div>
+  <div class="grid movie-grid" data-search-results></div>
+</section>
+<script src="assets/movies-data.js"></script>
+<script type="module" src="assets/search-page.js"></script>
+</main>
+
+<footer class="site-footer">
+  <div class="container footer-grid">
+    <div>
+      <div class="footer-brand">热门影片片库</div>
+      <p>整理最新日韩视频片库，展示近期更新栏目、热门影视视频和精选内容。</p>
+    </div>
+    <div>
+      <h4>站点数据</h4>
+      <p>共收录 <strong>2000</strong> 条影片内容，已生成分类页、排行榜与独立详情页。</p>
+    </div>
+    <div>
+      <h4>快捷入口</h4>
+      <p><a href="categories.html">分类总览</a> · <a href="ranking.html">排行榜</a> · <a href="search.html">站内搜索</a></p>
+    </div>
+  </div>
+</footer>
+<script>
+var _hmt = _hmt || [];
+(function() {
+  var hm = document.createElement("script");
+  hm.src = "https://hm.baidu.com/hm.js?60fa60a3da050a73eefefaaebe0afaf5";
+  var s = document.getElementsByTagName("script")[0]; 
+  s.parentNode.insertBefore(hm, s);
+})();
+</script>
+</body>
+</html>

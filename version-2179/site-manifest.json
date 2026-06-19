@@ -1,0 +1,73 @@
+{
+  "site_title": "最新日韩视频-热门影片片库-高清视频在线观看",
+  "site_short": "热门影片片库",
+  "total_movies": 2000,
+  "categories": [
+    {
+      "filename": "category-01-drama.html",
+      "title": "剧情精选片库",
+      "count": 167
+    },
+    {
+      "filename": "category-02-drama.html",
+      "title": "剧情精选片库",
+      "count": 167
+    },
+    {
+      "filename": "category-03-drama.html",
+      "title": "剧情精选片库",
+      "count": 167
+    },
+    {
+      "filename": "category-04-drama.html",
+      "title": "剧情精选片库",
+      "count": 167
+    },
+    {
+      "filename": "category-05-drama.html",
+      "title": "剧情精选片库",
+      "count": 167
+    },
+    {
+      "filename": "category-06-drama.html",
+      "title": "剧情精选片库",
+      "count": 167
+    },
+    {
+      "filename": "category-07-drama.html",
+      "title": "剧情精选片库",
+      "count": 167
+    },
+    {
+      "filename": "category-08-drama.html",
+      "title": "剧情精选片库",
+      "count": 167
+    },
+    {
+      "filename": "category-09-drama.html",
+      "title": "剧情精选片库",
+      "count": 166
+    },
+    {
+      "filename": "category-10-drama.html",
+      "title": "剧情精选片库",
+      "count": 166
+    },
+    {
+      "filename": "category-11-drama.html",
+      "title": "剧情精选片库",
+      "count": 166
+    },
+    {
+      "filename": "category-12-drama.html",
+      "title": "剧情精选片库",
+      "count": 166
+    }
+  ],
+  "entry_points": [
+    "index.html",
+    "categories.html",
+    "ranking.html",
+    "search.html"
+  ]
+}
